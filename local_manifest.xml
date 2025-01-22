@@ -9,7 +9,7 @@
         <!-- Trees -->
         <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="AL" revision="13" clone-depth="1" />
         <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="AL" revision="13" clone-depth="1" />
-        <project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="AL" revision="main" clone-depth="1" />
+        <project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince-cygnus" remote="AL" revision="14" clone-depth="1" />
 	<project path="vendor/extra" name="vendor_extra" remote="AL" revision="ten" clone-depth="1" />
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AL" revision="lineage-20" clone-depth="1" />
 	<project path="vendor/dolby/ds" name="vendor_extra" remote="AL" revision="dolby" clone-depth="1" />
