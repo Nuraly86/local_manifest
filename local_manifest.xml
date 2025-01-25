@@ -4,7 +4,7 @@
         <!-- Remote -->
         <remote name="AL" fetch="https://github.com/k4ngcaribug" />
 	<remote name="neko" fetch="https://gitlab.com/nekoprjkt" />
-	<remote name="cam" fetch="https://github.com/ArrowOS-Devices" />
+	<remote name="fm" fetch="https://github.com/iusmac" />
 		
         <!-- Trees -->
         <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="AL" revision="13" clone-depth="1" />
@@ -13,6 +13,7 @@
 	<project path="vendor/extra" name="vendor_extra" remote="AL" revision="ten" clone-depth="1" />
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AL" revision="lineage-20" clone-depth="1" />
 	<project path="vendor/dolby/ds" name="vendor_extra" remote="AL" revision="dolby" clone-depth="1" />
+	<project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="fm" revision="qcom" clone-depth="1" />
 
 	<!-- remove-project -->
 	<remove-project name="frameworks_av" />
